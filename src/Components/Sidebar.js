@@ -37,7 +37,7 @@ const Sidebar = ({ children }) => {
     },
     {
       path: '/dash/reports',
-      name: 'Report',
+      name: 'Reports',
       icon: <BsFileEarmark />,
     },
     {

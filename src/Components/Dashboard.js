@@ -7,6 +7,7 @@ import AddProducts from "../Screens/AddProducts";
 import Category from "../Screens/Category";
 import AddCategory from "../Screens/AddCategory";
 import Sidebar from './Sidebar';
+import Reports from "../Screens/Reports";
 
 function Dashboard() {
   return (
@@ -22,6 +23,7 @@ function Dashboard() {
             <Route path="add_products" element={<AddProducts />} />
             <Route path="category" element={<Category />} />
             <Route path="add_category" element={<AddCategory />} />
+            <Route path="reports" element={<Reports />} />
           </Routes>
         </div>
       </div>
